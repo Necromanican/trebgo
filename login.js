@@ -50,7 +50,7 @@ async function login() {
             localStorage.setItem("loginTime", Date.now());
 
             // Go to homepage
-            window.location.href = "index.html";
+            window.location.href = "index";
         } else {
             error.textContent = "Adik ka ba? mali nganiiiii.";
         }
