@@ -1,0 +1,114 @@
+@font-face {
+     font-family: 'SFPRODISPLAYREGULAR';
+     src: url('assets/fonts/SFPRODISPLAYREGULAR.eot');
+     src: url('assets/fonts/SFPRODISPLAYREGULAR.woff') format("woff"),
+          url('assets/fonts/SFPRODISPLAYREGULAR.ttf') format("truetype");
+ }
+ @font-face {
+     font-family: 'SFPRODISPLAYMEDIUM';
+     src: url('assets/fonts/SFPRODISPLAYMEDIUM.eot');
+     src: url('assets/fonts/SFPRODISPLAYMEDIUM.woff') format("woff"),
+          url('assets/fonts/SFPRODISPLAYMEDIUM.ttf') format("truetype");
+ }
+ @font-face {
+     font-family: 'SFPRODISPLAYBOLD';
+     src: url('assets/fonts/SFPRODISPLAYBOLD.eot');
+     src: url('assets/fonts/SFPRODISPLAYBOLD.woff') format("woff"),
+          url('assets/fonts/SFPRODISPLAYBOLD.ttf') format("truetype");
+ }
+
+@font-face {
+     font-family: 'HelveticaNeue';
+     src: url('assets/fonts/helveticaneue/HelveticaNeue.eot');
+     src: url('assets/fonts/helveticaneue/HelveticaNeue.woff') format("woff"),
+          url('assets/fonts/helveticaneue/HelveticaNeue.ttf') format("truetype");
+ }
+
+
+@font-face {
+     font-family: 'Montserrat-Light';
+     src: url('assets/fonts/Montserrat-Light.eot');
+     src: url('assets/fonts/Montserrat-Light.woff') format("woff"),
+          url('assets/fonts/Montserrat-Light.ttf') format("truetype");
+
+ }
+@font-face {
+     font-family: 'Montserrat-Medium';
+     src: url('assets/fonts/Montserrat-Medium.eot');
+     src: url('assets/fonts/Montserrat-Medium.woff') format("woff"),
+          url('assets/fonts/Montserrat-Medium.ttf') format("truetype");
+
+ }
+@font-face {
+     font-family: 'Montserrat-Regular';
+     src: url('assets/fonts/Montserrat-Regular.eot');
+     src: url('assets/fonts/Montserrat-Regular.woff') format("woff"),
+          url('assets/fonts/Montserrat-Regular.ttf') format("truetype");
+
+ }
+
+  @font-face {
+        font-family: 'AvenirNextLTPro-Regular';
+        src: url('assets/fonts/AvenirNextLTPro-It.eot');
+        src: url('assets/fonts/AvenirNextLTPro-It.woff') format("woff"),
+             url('assets/fonts/AvenirNextLTPro-It.ttf') format("truetype");
+
+    }
+    @font-face {
+          font-family: 'AvenirNextLTPro-It';
+          src: url('assets/fonts/AvenirNextLTPro-It.eot');
+          src: url('assets/fonts/AvenirNextLTPro-It.woff') format("woff"),
+               url('assets/fonts/AvenirNextLTPro-It.ttf') format("truetype");
+
+      }
+      @font-face {
+            font-family: 'AvenirNextLTPro-Bold';
+            src: url('assets/fonts/AvenirNextLTPro-Bold.eot');
+            src: url('assets/fonts/AvenirNextLTPro-Bold.woff') format("woff"),
+                 url('assets/fonts/AvenirNextLTPro-Bold.ttf') format("truetype");
+        }
+
+
+
+
+
+@font-face {
+        font-family: 'MyriadPro';
+        src: url('assets/fonts/MyriadPro-Regular.eot');
+        src: url('assets/fonts/MyriadPro-Regular.woff') format("woff"),
+             url('assets/fonts/MyriadPro-Regular.ttf') format("truetype");
+        font-weight: 400;
+        font-style: normal;
+font-display: swap;
+
+
+    }
+    
+  @font-face{
+        font-family: 'Helvetica Neue';
+        src: url('assets/fonts/HelveticaNeue.eot');
+        src: url('assets/fonts/HelveticaNeue.woff') format("woff"),
+             url('assets/fonts/HelveticaNeue.ttf') format("truetype");
+
+
+    }
+  @font-face {
+        font-family: 'Helvetica';
+        src: url('assets/fonts/Helvetica.eot');
+        src: url('assets/fonts/Helvetica.woff') format("woff"),
+             url('assets/fonts/Helvetica.ttf') format("truetype");
+        font-weight: 400;
+        font-style: normal;
+font-display: swap;
+    }
+
+    @font-face {
+          font-family: 'FontAwesome';
+          src: url('assets/fonts/fontawesome-webfont.eot');
+          src: url('assets/fontsfontawesome-webfont.woff') format("woff"),
+               url('assets/fontsfontawesome-webfont.ttf') format("truetype"),
+               url('assets/fontsfontawesome-webfont.svg#fontawesomeregular') format('svg');
+          font-weight: 400;
+          font-style: normal;
+  font-display: swap;
+      }
