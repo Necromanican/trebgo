@@ -58,19 +58,20 @@
 </head>
 <body>
 
-<div class="login-box">
+<form class="login-box" onsubmit="login(); return false;">
     <h2 class="and2">andito ka</h2>
+
     <center>
-    <img src="hq720.jpg" style="width: 100%;">
+        <img src="hq720.jpg" style="width: 100%;">
     </center>
 
     <input type="text" id="username" placeholder="Username">
     <input type="password" id="password" placeholder="Password">
 
-    <button onclick="login()">Login</button>
+    <button type="submit">Login</button>
 
     <p id="error"></p>
-</div>
+</form>
 
 <script src="login.js"></script>
 
