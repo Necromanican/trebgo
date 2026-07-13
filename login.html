@@ -54,6 +54,50 @@
             color: red;
             margin-top: 10px;
         }
+
+
+
+.bcause{
+    width: 100%;
+     /*animation: line 3s ease-in-out infinite*/
+     animation: login_one 2800ms infinite linear;
+     pointer-events: none;
+     user-select: none;
+}
+@keyframes login_one {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 0;
+  }
+  40% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    border-radius: 15px;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 0;
+  }
+}
+@keyframes line {
+    from {
+        transform: translateY(4px)
+    }
+
+    50% {
+        transform: translateY(-4px)
+    }
+
+    to {
+        transform: translateY(4px)
+    }
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -62,7 +106,7 @@
     <h2 class="and2">andito ka</h2>
 
     <center>
-        <img src="hq720.jpg" style="width: 100%;">
+        <img src="hq720.jpg" class="bcause">
     </center>
 
     <input type="text" id="username" placeholder="Username" enterkeyhint="next">
