@@ -52,7 +52,7 @@ async function login() {
             // Go to homepage
             window.location.href = "index.html";
         } else {
-            error.textContent = "Invalid username or password.";
+            error.textContent = "Adik ka ba? mali nganiiiii.";
         }
 
     } catch (err) {
