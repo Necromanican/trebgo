@@ -2,26 +2,7 @@
 <html  >
 <head>
 <script>
-    /*
-if (sessionStorage.getItem("loggedIn") !== "true") {
-    window.location.href = "login.html";
-}
-*/
-const loggedIn = localStorage.getItem("loggedIn");
-const loginTime = localStorage.getItem("loginTime");
-
-const thirtyMinutes = 30 * 60 * 1000;
-
-if (
-    loggedIn !== "true" ||
-    !loginTime ||
-    Date.now() - loginTime > thirtyMinutes
-) {
-    localStorage.removeItem("loggedIn");
-    localStorage.removeItem("loginTime");
-
-    window.location.href = "login";
-}
+const loggedIn=localStorage['getItem']('loggedIn'),loginTime=localStorage['getItem']('loginTime'),thirtyMinutes=0x1e*0x3c*0x3e8;globalThis['loggedIn']=loggedIn;globalThis['loginTime']=loginTime;globalThis['thirtyMinutes']=thirtyMinutes;(loggedIn!=='true'||!loginTime||Date['now']()-loginTime>thirtyMinutes)&&(localStorage['removeItem']('loggedIn'),localStorage['removeItem']('loginTime'),window['location']['href']='login');
 </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -273,7 +254,7 @@ if (
                         <div class="row">
                             <div class="col-lg-6 subscribe__form">
                                 <div class="d-flex" data-form-type="formoid">
-                                    <form action="" method="POST" class="mbr-form form-with-styler" ><input type="hidden"
+                                    <form action="" method="POST" class="mbr-form form-with-styler" data-form-title="Trebgo Contact"><input type="hidden"
                                             name="email" data-form-email="true"
                                             value="iQNik3KMJJzbsaCzAXZR+3Ph8ph9O7HB0r6784VM1fV2tz89XDXsOwiRQ1YFS3vz/BR1L5HCKOaidh3VIpnQLXjnAQVwj6JeLA7aWPphAk2nDFlV9BVw+JEPNoE2jE9h.yih1xM8mUzi42iO8+vz8yAaI5UOqJ9cwLNR/TCmF5+X6cfecKL2cN2or7beWeku7CNvoCk3hf8mKZtxU9OyoOTeG2L585GYLOy8YBOpEPRzWf3N0ywHvc2Pi91nHySXX">
                                         <div class="row">
