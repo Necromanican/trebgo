@@ -189,7 +189,7 @@ $(document).ready(function () {
             let sectionTop = $(this).offset().top;
             let sectionBottom = sectionTop + $(this).outerHeight();
 
-            // 100px trigger is inside this section
+          
             if (
                 triggerPosition >= sectionTop &&
                 triggerPosition < sectionBottom
@@ -199,10 +199,10 @@ $(document).ready(function () {
 
         });
 
-        // Remove active first
+       
         $(".observe").removeClass("active");
 
-        // Add active only if trigger is inside a section
+       
         if (activeSection) {
 
             if ($(activeSection).hasClass("obabout")) {
