@@ -37,6 +37,13 @@ z-index: 9999 !important;
 .about-adjt{
   padding-top: 20px !important;
 }
+.serviceslist-adjt{
+  width: 70% !important;
+}
+.services-adjt{
+  padding-top: 4rem !important;
+  padding-bottom: 6rem !important;
+}
 }
 @media (max-width: 766px) {
 
