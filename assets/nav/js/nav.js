@@ -115,3 +115,126 @@ $(function() {
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+/*
+$(document).ready(function () {
+
+    const sections = $(".obabout, .observices, .obsocial, .obcontact");
+
+    $(window).on("scroll", function () {
+
+        let scrollPosition = $(window).scrollTop();
+        let windowHeight = $(window).height();
+
+        sections.each(function () {
+
+            let sectionTop = $(this).offset().top;
+            let sectionBottom = sectionTop + $(this).outerHeight();
+
+          
+            if (
+                scrollPosition + (windowHeight * 0.5) >= sectionTop &&
+                scrollPosition + (windowHeight * 0.5) <= sectionBottom
+            ) {
+
+                $(".observe").removeClass("active");
+
+                if ($(this).hasClass("obabout")) {
+                    $('.observe[href*="#about-page"]').addClass("active");
+                }
+
+                if ($(this).hasClass("observices")) {
+                    $('.observe[href*="#services-page"]').addClass("active");
+                }
+
+                if ($(this).hasClass("obsocial")) {
+                    $('.observe[href*="#social-page"]').addClass("active");
+                }
+
+                 if ($(this).hasClass("obcontact")) {
+                    $('.observe[href*="#contact-page"]').addClass("active");
+                }
+
+            }
+
+        });
+
+    });
+
+});
+*/
+
+
+$(document).ready(function () {
+
+    const sections = $(".obabout, .observices, .obsocial, .obcontact");
+
+    function updateActiveNav() {
+
+        let triggerPosition = $(window).scrollTop() + 150;
+        let activeSection = null;
+
+        sections.each(function () {
+
+            let sectionTop = $(this).offset().top;
+            let sectionBottom = sectionTop + $(this).outerHeight();
+
+            // 100px trigger is inside this section
+            if (
+                triggerPosition >= sectionTop &&
+                triggerPosition < sectionBottom
+            ) {
+                activeSection = this;
+            }
+
+        });
+
+        // Remove active first
+        $(".observe").removeClass("active");
+
+        // Add active only if trigger is inside a section
+        if (activeSection) {
+
+            if ($(activeSection).hasClass("obabout")) {
+                $('.observe[href*="#about-page"]').addClass("active");
+            }
+
+            if ($(activeSection).hasClass("observices")) {
+                $('.observe[href*="#services-page"]').addClass("active");
+            }
+
+            if ($(activeSection).hasClass("obsocial")) {
+                $('.observe[href*="#social-page"]').addClass("active");
+            }
+
+            if ($(activeSection).hasClass("obcontact")) {
+                $('.observe[href*="#contact-page"]').addClass("active");
+            }
+
+        }
+
+    }
+
+    $(window).on("scroll resize", function () {
+        updateActiveNav();
+    });
+
+    updateActiveNav();
+
+});
+
+
+
+
+
+
