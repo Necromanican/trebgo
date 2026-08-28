@@ -21,3 +21,49 @@ z-index: 9999 !important;
   opacity: 0.5 !important;
 }
 }
+@media (max-width: 766px) {
+.cid-vtt19rnkW3 .section-head p{
+  width: 100% !important;
+}
+}
+
+
+
+
+
+@media (min-width: 766px) {
+
+
+.about-adjt{
+  padding-top: 20px !important;
+}
+}
+@media (max-width: 766px) {
+
+    .owtext-adjt{
+  z-index: 1025;
+}
+  .owlbg-adjt{
+  position: absolute;
+  z-index: 1024;
+  opacity: 0.2;
+  transform: translateY(-50px);
+   filter: brightness(80%);
+}
+.about-adjt{
+  padding-top: 0px !important;
+  padding-bottom: 20px !important;
+}
+.howwework-adjt{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.services-adjt{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+}
+
+
+
