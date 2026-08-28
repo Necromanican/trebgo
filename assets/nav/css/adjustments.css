@@ -74,3 +74,91 @@ z-index: 9999 !important;
 
 
 
+
+
+
+
+.owlpadtop-adjt.animation__background .trebcircle1 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  top: 20%;
+  left: 28%;
+  background: #47b5ed;
+  border-radius: 50%;
+  position: absolute;
+  animation: treborbanimationOne 25s infinite linear;
+}
+.owlpadtop-adjt .animation__background .trebcircle2 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  top: 44%;
+  left: 4%;
+  background: #40b0bf;
+  border-radius: 50%;
+  position: absolute;
+  animation: treborbanimationOne 30s alternate infinite linear;
+}
+.owlpadtop-adjt .animation__background .trebcircle3 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  top: 49%;
+  left: 51%;
+  background: #ffe161;
+  position: absolute;
+  border-radius: 50%;
+  animation: treborbanimationTwo 35s infinite linear;
+}
+.owlpadtop-adjt .animation__background .trebcircle4 {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background: #e43f3f;
+  bottom: 20%;
+  left: 33%;
+  animation: treborbanimationOne 30s infinite linear;
+}
+@keyframes treborbanimationOne {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(70px, -1px) rotate(35deg);
+  }
+  40% {
+    transform: translate(140px, 70px) rotate(70deg);
+  }
+  60% {
+    transform: translate(80px, 120px) rotate(110deg);
+  }
+  80% {
+    transform: translate(-40px, 70px) rotate(145deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@keyframes treborbanimationTwo {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+  20% {
+    transform: translate(70px, -1px) rotate(35deg) scale(0.9);
+  }
+  40% {
+    transform: translate(140px, 70px) rotate(70deg) scale(1);
+  }
+  60% {
+    transform: translate(80px, 120px) rotate(110deg) scale(1.2);
+  }
+  80% {
+    transform: translate(-40px, 70px) rotate(145deg) scale(1.1);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+}
